@@ -28,4 +28,6 @@ RUN apt-get update \
     && apt-get install azure-cli
 
 # Start PowerShell
-CMD ["/usr/bin/pwsh"]
+#CMD ["/usr/bin/pwsh"]
+ENTRYPOINT ["/usr/bin/pwsh"]
+
